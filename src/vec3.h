@@ -100,7 +100,7 @@ inline vec3 operator*(const vec3 &v, float t)
                 v.e[2] * t);
 }
 
-inline vec3 operator/(vec3 &v, float t)
+inline vec3 operator/(const vec3 &v, float t)
 {
     return vec3(v.e[0] / t,
                 v.e[1] / t,
